@@ -4,7 +4,7 @@ $params = require __DIR__ . '/params.php';
 $db = require __DIR__ . '/db.php';
 
 $config = [
-    'id' => 'BuilderLE',
+    'id' => 'builderle',
     'name' => 'Aplicacion de videojuegos',
     'language' => 'es-ES',
     'basePath' => dirname(__DIR__),
