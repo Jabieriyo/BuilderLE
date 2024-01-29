@@ -5,7 +5,7 @@ $db = require __DIR__ . '/db.php';
 
 $config = [
     'id' => 'builderle',
-    'name' => 'Aplicacion de videojuegos',
+    'name' => 'Last Epoch Builder',
     'language' => 'es-ES',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],

@@ -39,6 +39,13 @@ AppAsset::register($this);
         'items' => [
             ['label' => 'Anillos', 'url' => ['/anillo/index']],
             ['label' => 'Armaduras', 'url' => ['/armaduras/index']],
+            ['label' => 'Armas', 'url' => ['/armas/index']],
+            ['label' => 'Botas', 'url' => ['/botas/index']],
+            ['label' => 'Builds', 'url' => ['/builds/index']],
+            ['label' => 'Cascos', 'url' => ['/cascos/index']],
+            ['label' => 'Collares', 'url' => ['/collares/index']],
+            ['label' => 'Personajes', 'url' => ['/personajes/index']],
+            ['label' => 'VBotas', 'url' => ['/velocidadbotas/index']],
             /*
             ['label' => 'Home', 'url' => ['/site/index']],
             ['label' => 'About', 'url' => ['/site/about']],
