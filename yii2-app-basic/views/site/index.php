@@ -14,6 +14,7 @@ $this->title = 'My Yii Application';
 
     <!-- Agrega las hojas de estilo de Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <!-- Agrega tu propio archivo CSS si es necesario -->
 
     <!-- Incluye los scripts de Bootstrap y jQuery -->
@@ -27,10 +28,16 @@ $this->title = 'My Yii Application';
 <div id="carouselhome" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
-           <?= Html::img('@web/images/imagen1.jpeg', ['alt' => 'Evento Santander 21', 'class' => 'd-block w-100']) ?>
+           <?= Html::img('@web/images/mapa.jpg', ['alt' => 'Evento Santander 21', 'class' => 'd-block w-100']) ?>
         </div>
         <div class="carousel-item">
-            <?= Html::img('@web/images/imagen2.jpg', ['alt' => 'Evento Santander 21', 'class' => 'd-block w-100']) ?>
+            <?= Html::img('@web/images/gameplay1.jpg', ['alt' => 'Evento Santander 21', 'class' => 'd-block w-100']) ?>
+        </div>
+        <div class="carousel-item">
+            <?= Html::img('@web/images/gameplay2.jpg', ['alt' => 'Evento Santander 21', 'class' => 'd-block w-100']) ?>
+        </div>
+        <div class="carousel-item">
+            <?= Html::img('@web/images/gameplay3.jpg', ['alt' => 'Evento Santander 21', 'class' => 'd-block w-100']) ?>
         </div>
         <!-- Agrega más elementos según sea necesario -->
     </div>
