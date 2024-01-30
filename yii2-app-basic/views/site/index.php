@@ -14,7 +14,7 @@ $this->title = 'My Yii Application';
 
     <!-- Agrega las hojas de estilo de Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
     <!-- Agrega tu propio archivo CSS si es necesario -->
 
     <!-- Incluye los scripts de Bootstrap y jQuery -->
@@ -41,15 +41,17 @@ $this->title = 'My Yii Application';
         </div>
         <!-- Agrega más elementos según sea necesario -->
     </div>
-    <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+    <a class="carousel-control-prev" href="#carouselhome" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Anterior</span>
     </a>
-    <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+    <a class="carousel-control-next" href="#carouselhome" role="button" data-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Siguiente</span>
     </a>
 </div>
+<div id="Compartir">
+    <div class="">
 
 <!-- Div con texto -->
 <div class="container mt-4">

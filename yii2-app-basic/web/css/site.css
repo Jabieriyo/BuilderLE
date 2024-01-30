@@ -93,7 +93,7 @@ a.desc:after {
 /*Home*/
 /* Estilos generales */
 body {
-    background-color: #f8f9fa; /* Color de fondo */
+    background-color: #7232A4; /* Color de fondo */
     color: #333; /* Color del texto principal */
 }
 
@@ -121,4 +121,6 @@ body {
 }
 #carouselhome{
     width: 100vw !important;
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
 }
