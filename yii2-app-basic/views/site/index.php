@@ -16,7 +16,9 @@ $this->title = 'My Yii Application';
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
     <!-- Agrega tu propio archivo CSS si es necesario -->
-
+    <link rel="stylesheet" href="<?= Url::to('@web/css/site.css') ?>">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
     <!-- Incluye los scripts de Bootstrap y jQuery -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
@@ -28,7 +30,7 @@ $this->title = 'My Yii Application';
 <div id="carouselhome" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
-           <?= Html::img('@web/images/mapa.jpg', ['alt' => 'Evento Santander 21', 'class' => 'd-block w-100']) ?>
+           <?= Html::img('@web/images/mapamundi.jpg', ['alt' => 'Slider2', 'class' => 'd-block w-100']) ?>
         </div>
         <div class="carousel-item">
             <?= Html::img('@web/images/gameplay1.jpg', ['alt' => 'Evento Santander 21', 'class' => 'd-block w-100']) ?>
@@ -50,8 +52,22 @@ $this->title = 'My Yii Application';
         <span class="sr-only">Siguiente</span>
     </a>
 </div>
-<div id="Compartir">
-    <div class="">
+
+<!-- Div "Introducción" -->
+<div class="titulo-container">
+    <h1 class="titulo">Crea y comparte tus mejores builds</h1>
+</div>
+
+<!-- Div "compartir" -->
+<div class="compartir-container">
+        <div class="compartir-image-container">
+            <?= Html::img('@web/images/compartir.png', ['class' => 'd-block w-50']) ?>
+        </div>
+        <div class="compartir-text-container">
+            <h2>Título del Texto</h2>
+            <p>Este es un ejemplo de texto que está a la derecha de la imagen.</p>
+        </div>
+    </div>
 
 <!-- Div con texto -->
 <div class="container mt-4">
