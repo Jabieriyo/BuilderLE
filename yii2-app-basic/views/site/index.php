@@ -30,16 +30,19 @@ $this->title = 'My Yii Application';
 <div id="carouselhome" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
-           <?= Html::img('@web/images/mapamundi.jpg', ['alt' => 'Slider2', 'class' => 'd-block w-100']) ?>
+           <?= Html::img('@web/images/inicio.jpg', ['class' => 'd-block w-100']) ?>
         </div>
         <div class="carousel-item">
-            <?= Html::img('@web/images/gameplay1.jpg', ['alt' => 'Evento Santander 21', 'class' => 'd-block w-100']) ?>
+            <?= Html::img('@web/images/mapamundi.jpg', ['class' => 'd-block w-100']) ?>
         </div>
         <div class="carousel-item">
-            <?= Html::img('@web/images/gameplay2.jpg', ['alt' => 'Evento Santander 21', 'class' => 'd-block w-100']) ?>
+            <?= Html::img('@web/images/gameplay1.jpg', ['class' => 'd-block w-100']) ?>
         </div>
         <div class="carousel-item">
-            <?= Html::img('@web/images/gameplay3.jpg', ['alt' => 'Evento Santander 21', 'class' => 'd-block w-100']) ?>
+            <?= Html::img('@web/images/gameplay2.jpg', ['class' => 'd-block w-100']) ?>
+        </div>
+        <div class="carousel-item">
+            <?= Html::img('@web/images/gameplay3.jpg', ['class' => 'd-block w-100']) ?>
         </div>
         <!-- Agrega más elementos según sea necesario -->
     </div>
@@ -53,35 +56,32 @@ $this->title = 'My Yii Application';
     </a>
 </div>
 
-<!-- Div "Introducción" -->
+<!-- Div "Titulo" -->
 <div class="titulo-container">
-    <h1 class="titulo">Crea y comparte tus mejores builds</h1>
+    <h1 class="titulo">Util herramienta para gestionar tu equipo</h1>
+</div>
+
+<!-- Div "crear" -->
+<div class="crear-container">
+    <div class="crear-text-container">
+        <h1 class="titulo-crear">Crea tus builds</h1>
+        <p class="texto-crear">Modifica tu equipamiento y mira los resultados de las diferentes combinaciones fácilmente y sin ningún costo.</p>
+    </div>
+    <div class="crear-image-container">
+        <?= Html::img('@web/images/crear.jpg', ['class' => 'd-block w-100']) ?>
+    </div>
 </div>
 
 <!-- Div "compartir" -->
 <div class="compartir-container">
         <div class="compartir-image-container">
-            <?= Html::img('@web/images/compartir.png', ['class' => 'd-block w-50']) ?>
+            <?= Html::img('@web/images/compartir.png', ['class' => 'd-block w-100']) ?>
         </div>
         <div class="compartir-text-container">
-            <h2>Título del Texto</h2>
-            <p>Este es un ejemplo de texto que está a la derecha de la imagen.</p>
+            <h1 class="titulo-compartir">Comparte tus builds</h1>
+            <p class="texto-compartir">Comparte tus ideas con miles de jugadores o prueba sus builds en tu partida.</p>
         </div>
     </div>
-
-<!-- Div con texto -->
-<div class="container mt-4">
-    <div class="row">
-        <div class="col-md-6 offset-md-3">
-            <div class="card">
-                <div class="card-body">
-                    <h2 class="card-title">Bienvenido a Mi Proyecto Yii2</h2>
-                    <p class="card-text">Este es un ejemplo de una página de inicio con Yii2, Bootstrap, HTML y CSS.</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
 </body>
 </html>

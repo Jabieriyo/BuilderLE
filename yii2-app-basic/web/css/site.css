@@ -141,16 +141,68 @@ body {
 }
 .titulo{
    height: 150px;
-   font-size:75px;
+   font-size:80px;
 } 
 
 /*compartir*/
 .compartir-container{
+    margin-top:20px;
     margin-left: 20px;
     display: flex;
     background-color: black;
-    width: 100%;
+    width: 97.5%;
     border: 5px solid #e2ce7c;
 }
-.compartir-image-container{
+
+.compartir-image-container {
+    max-width: 500px; /* Establece el ancho máximo deseado */
+}
+
+.compartir-text-container {
+    flex: 1;
+    padding: 20px;
+    color: #e2ce7c; 
+}
+.compartir-image-container img {
+    width: 100%;
+    height: auto;
+}
+.titulo-compartir{
+    font-size:80px;
+}
+.texto-compartir{
+    font-size: 40px;
+}
+
+/*crear*/
+.crear-container {
+    margin-left: 20px;
+    display: flex;
+    background-color: black;
+    width: 97.5%;
+    border: 5px solid #e2ce7c;
+}
+
+.crear-text-container {
+    flex: 1;
+    padding-top: 20px;
+    color: #e2ce7c; 
+    margin-top:20px;
+}
+
+.crear-image-container {
+    max-width: 500px; /* Establece el ancho máximo deseado */
+}
+
+.crear-image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.titulo-crear {
+    font-size: 80px;
+}
+
+.texto-crear {
+    font-size: 40px;
 }
