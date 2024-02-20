@@ -206,3 +206,7 @@ body {
 .texto-crear {
     font-size: 40px;
 }
+
+.table td, .table th {
+    color: #e2ce7c;
+}
